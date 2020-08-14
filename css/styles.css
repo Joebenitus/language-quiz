@@ -2,3 +2,7 @@
   width: 300px;
   height: auto;
 }
+
+#result-python, #result-javascript, #result-c, #result-ruby {
+  display: none;
+}
