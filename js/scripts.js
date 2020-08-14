@@ -12,7 +12,29 @@ $(document).ready(function(){
     const question4 = parseInt($("input:radio[name=genre]:checked").val());
     const question5 = parseInt($("input:radio[name=vacation]:checked").val());
 
-    $("#result-python").show();
+    const final = question1 + question2 + question3 + question4 + question5;
+
+    if (final < 4){
+      $("#result-python").show();
+      $("#result-c").hide();
+      $("#result-ruby").hide();
+      $("#result-javascript").hide();
+    } else if (4 <= final < 8){
+      $("#result-python").hide();
+      $("#result-c").hide();
+      $("#result-ruby").hide();
+      $("#result-javascript").show();
+    } else if (8 <= final < 12){
+      $("#result-python").hide();
+      $("#result-c").show();
+      $("#result-ruby").hide();
+      $("#result-javascript").hide();
+    } else {
+      $("#result-python").hide();
+      $("#result-c").hide();
+      $("#result-ruby").show();
+      $("#result-javascript").hide();
+    }
     event.preventDefault();
   });
 });
