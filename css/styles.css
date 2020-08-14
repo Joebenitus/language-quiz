@@ -1,6 +1,8 @@
 .img {
   width: 300px;
   height: auto;
+  float: left;
+  margin: 30px;
 }
 
 #result-python, #result-javascript, #result-c, #result-ruby {
