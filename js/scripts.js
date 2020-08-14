@@ -29,12 +29,13 @@ $(document).ready(function(){
       $("#result-c").show();
       $("#result-ruby").hide();
       $("#result-javascript").hide();
-    } else {
+    } else if (final >= 12){
       $("#result-python").hide();
       $("#result-c").hide();
       $("#result-ruby").show();
       $("#result-javascript").hide();
     }
+    $('html, body').animate({ scrollTop: 1000 }, 'slow');
     event.preventDefault();
   });
 });
