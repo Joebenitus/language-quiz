@@ -19,12 +19,12 @@ $(document).ready(function(){
       $("#result-c").hide();
       $("#result-ruby").hide();
       $("#result-javascript").hide();
-    } else if (4 <= final < 8){
+    } else if (4 <= final && final < 8){
       $("#result-python").hide();
       $("#result-c").hide();
       $("#result-ruby").hide();
       $("#result-javascript").show();
-    } else if (8 <= final < 12){
+    } else if (8 <= final && final < 12){
       $("#result-python").hide();
       $("#result-c").show();
       $("#result-ruby").hide();
