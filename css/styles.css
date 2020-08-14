@@ -1,10 +1,14 @@
 body {
-  background-color: #05386B;
+  background-image: url("bg.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: auto;
   color: black;
 }
 
 .radio {
-  background-color: #379683;
+  background-color: #4fd486;
 }
 
 .result-desc {
@@ -49,6 +53,7 @@ body {
 
 #result-card {
   display: none;
+  margin-bottom: 20px;
 }
 
 .btn {
