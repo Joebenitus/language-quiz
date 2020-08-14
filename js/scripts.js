@@ -1,6 +1,5 @@
 // Programming language options:
 //   JavaScript
 //   Ruby
-//   C#
+//   C++
 //   Python
-//   Go
