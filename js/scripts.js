@@ -15,7 +15,7 @@ $(document).ready(function(){
     const final = question1 + question2 + question3 + question4 + question5;
 
     if (final < 4){
-      $("#result-python").show();
+      $("#result-python").fadeIn();
       $("#result-c").hide();
       $("#result-ruby").hide();
       $("#result-javascript").hide();
@@ -23,16 +23,16 @@ $(document).ready(function(){
       $("#result-python").hide();
       $("#result-c").hide();
       $("#result-ruby").hide();
-      $("#result-javascript").show();
+      $("#result-javascript").fadeIn();
     } else if (8 <= final && final < 12){
       $("#result-python").hide();
-      $("#result-c").show();
+      $("#result-c").fadeIn();
       $("#result-ruby").hide();
       $("#result-javascript").hide();
     } else if (final >= 12){
       $("#result-python").hide();
       $("#result-c").hide();
-      $("#result-ruby").show();
+      $("#result-ruby").fadeIn();
       $("#result-javascript").hide();
     }
     $('html, body').animate({ scrollTop: 1000 }, 'slow');
