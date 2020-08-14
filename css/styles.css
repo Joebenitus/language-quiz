@@ -38,7 +38,7 @@ body {
   margin: 30px;
 }
 
-#result-python, #result-javascript, #result-c, #result-ruby {
+#result-card {
   display: none;
 }
 
@@ -49,6 +49,8 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  border: 10px solid #0c64bd;
+  border-style: groove;
 }
 
 .result-desc {

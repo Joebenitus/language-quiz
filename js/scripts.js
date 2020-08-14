@@ -19,23 +19,27 @@ $(document).ready(function(){
       $("#result-c").hide();
       $("#result-ruby").hide();
       $("#result-javascript").hide();
+      $("#result-card").fadeIn();
     } else if (4 <= final && final < 8){
       $("#result-python").hide();
       $("#result-c").hide();
       $("#result-ruby").hide();
       $("#result-javascript").fadeIn();
+      $("#result-card").fadeIn();
     } else if (8 <= final && final < 12){
       $("#result-python").hide();
       $("#result-c").fadeIn();
       $("#result-ruby").hide();
       $("#result-javascript").hide();
+      $("#result-card").fadeIn();
     } else if (final >= 12){
       $("#result-python").hide();
       $("#result-c").hide();
       $("#result-ruby").fadeIn();
       $("#result-javascript").hide();
+      $("#result-card").fadeIn();
     }
-    $('html, body').animate({ scrollTop: 1000 }, 'slow');
+    $("html, body").animate({scrollTop: $("html, body").get(0).scrollHeight}, 500); 
     event.preventDefault();
   });
 });
