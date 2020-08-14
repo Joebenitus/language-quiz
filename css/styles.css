@@ -1,7 +1,34 @@
+body {
+  background-color: #05386B;
+  color: black;
+}
+
 .col-md-6 {
   margin-top: 20px;
   margin-bottom: 20px;
-  
+}
+
+.card {
+  background-color: #5CDB95;
+  border: 10px solid #8EE4AF;
+  border-style: groove;
+}
+
+#instructions {
+  background-color: #5CDB95;
+  text-align: center;
+  border: 10px solid #8EE4AF;
+  border-style: groove;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.jumbotron {
+  margin-top: 20px;
+  background-color: #5CDB95;
+  text-align: center;
+  border: 10px solid #8EE4AF;
+  border-style: groove;
 }
 
 .img {
